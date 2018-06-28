@@ -11,3 +11,5 @@ server.listen(enviroment.server.port, ()=>{
    console.log(`BACKEND is running on port ${enviroment.server.port}.`);
 })
 
+
+module.exports = server

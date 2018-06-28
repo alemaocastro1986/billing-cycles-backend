@@ -1,3 +1,3 @@
-require('./server/server')
+const server = require('./server/server')
 require('./db/database')
-require('./routes/routes')
+require('./routes/routes')(server)
